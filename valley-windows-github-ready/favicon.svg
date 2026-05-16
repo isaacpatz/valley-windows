@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Brand navy background with rounded corners (Apple-touch style) -->
+  <rect width="512" height="512" rx="96" ry="96" fill="#1B4E66"/>
+
+  <!-- Cursive 'V' from The Valley wordmark, redrawn bold for tiny sizes -->
+  <g fill="#FFFFFF" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Filled-stroke V: thick down-left leg, thick up-right leg -->
+    <path d="
+      M 130 130
+      C 145 110, 180 110, 198 145
+      C 220 200, 250 290, 275 360
+      C 285 388, 305 388, 318 360
+      C 350 285, 388 195, 415 145
+      C 422 132, 435 128, 445 138
+      C 455 148, 452 165, 442 178
+      C 410 230, 360 335, 322 410
+      C 305 442, 270 442, 252 408
+      C 220 340, 175 235, 140 175
+      C 125 152, 120 142, 130 130
+      Z
+    "/>
+
+    <!-- Top-left tick/upstroke flourish that mimics the script 'V' entry -->
+    <ellipse cx="115" cy="135" rx="22" ry="12" transform="rotate(-15 115 135)"/>
+  </g>
+
+  <!-- Brand blue 4-point star, upper-right (matches the star next to 'Valley') -->
+  <path d="
+    M 422 70
+    L 440 105
+    L 475 122
+    L 440 140
+    L 422 175
+    L 404 140
+    L 369 122
+    L 404 105 Z
+  " fill="#5BB8E0"/>
+</svg>
