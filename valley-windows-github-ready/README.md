@@ -7,3 +7,4 @@ Website for The Valley Window Services — professional window cleaning in Hunts
 
 ## Stack
 Static HTML / CSS / JS, deployed via Vercel.
+Deployed via GitHub + Vercel.
