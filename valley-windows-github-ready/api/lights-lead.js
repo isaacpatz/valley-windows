@@ -139,11 +139,11 @@ module.exports = async function handler(req, res) {
       last_name: lastName,
       email,
       mobile_number: phone,
-      notifications_enabled: false,
+      notifications_enabled: false, notes: description,
       addresses: [{ type: 'service', street, city, state, zip, country: 'US' }],
     },
     lead_source: 'Website',
-    description,
+    note: description,
   };
 
   const backup = {
